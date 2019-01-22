@@ -1,0 +1,51 @@
+nav span.lange, span.colored{
+    color:#3273D9 !important;
+}
+
+nav a:hover span.lange{
+    color:#4a4a4a !important;
+}
+
+footer .social-links{
+    margin-bottom:2em;
+    color:#4a4a4a;
+}
+
+footer a{
+    color:#4a4a4a;
+    font-weight: bold;
+}
+
+footer .social-links a{
+    margin:0 1em 0 1em;
+}
+
+.is-info{
+    background-color:#3273d9 !important;
+}
+
+figure.me img{
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+p.me, #resume p.cta{
+    margin:1em 0;
+    line-height: 1.5em;
+}
+h2.title{
+    margin-bottom:2em !important;
+}
+h2.title:after{
+    display:block;
+    width: 100px;
+    height: 3px;
+    background: #3273d9;
+    content: "";
+    margin: 0.5em  auto;
+}
+#resume .item p.description{
+    min-height: 1.5em;
+}
+
+#hello .image{margin:auto;}

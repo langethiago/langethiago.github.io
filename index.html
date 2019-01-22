@@ -1,11 +1,394 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="img/thiagolange.png" />
+        <title>Thiago P. Lange</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+        <link rel="stylesheet" href="./thiagolange.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+
 <body>
+    <section class="section is-header">
+        <div class='container'>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item is-paddingless" href="http://thiagolange.me">
+                    <h1 class="brand is-size-4"><strong>Thiago <span class="lange">Lange</span></strong></h1>
+                </a> 
+    
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            
+            </div>
 
-<h1>Hello,</h1>
+            <div id="navbarMain" class="navbar-menu">
+                <div class="navbar-end">
+                    <span class="navbar-item">
+                    <a class="is-active burger" href="#">
+                        Home
+                    </a>
+                    </span>
+                    <a class="navbar-item" href="#about">
+                            About Me
+                    </a>
+                    <a class="navbar-item" href="#projects">
+                        My Projects
+                    </a>
+                    <a class="navbar-item" href="#resume">
+                        My Resume
+                    </a>
+                    <a class="navbar-item" href="#contact">
+                        Talk to Me
+                    </a>
 
-<p>I'm Thiago Pecorari Lange.</p>
-<p>You can reach me at: langepthiago@gmail.com </p>
+                    <a class="navbar-item" href="https://www.instagram.com/langethiago/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
 
+                    <a class="navbar-item" href="https://www.linkedin.com/in/thiago-lange-286570a2/"" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </section>
+
+    <section class="hero is-medium" id="hello">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <figure class="">
+                    <img src="./img/thiagolange.png">
+                </figure>
+                <h1 class="title is-size-1">Hi, I'm Thiago Lange</h1>
+                <h2 class="subtitle">92% Industrial engineer, coder enthusiastic and data lover &#9829;</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section hero is-light" id="about">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title  has-text-centered is-spaced">ABOUT <span class="colored">ME</span></h2>
+                <div class="columns">
+                    
+                    <div class="column is-3 is-offset-1">
+                        <figure class="image">
+                            <img src="./img/thiago.png">
+                        </figure>
+
+                        <!---
+                        <figure class="image me">
+                            <img src="../img/fotos/02.png">
+                        </figure>
+                        -->
+                    </div>
+
+                    <div class="column is-7">
+                        <h3 class="title is-size-4">Hi, I'm Thiago Lange</h3>
+                        <p class="me has-text-justified">
+                            I'm is a Brazilian guy living abroad who is always looking for new technologies and how to use it to do processes and tasks in a more efficient way.
+                        </p>
+                        <p class="me has-text-justified">
+                                Currently I'm working for DPDHL Group helping the team of Procurement Performance and Tools to get insights from their data and discover how new tools can bring better results for the company.
+                        </p>
+
+                        <p class="me">
+                            <a href="#contact" class="button is-info is-medium">
+                                Talk to me
+                            </a>
+                            <a  href="http://thiagolange.me/thiagolange.pdf" target="_blank" class="button is-dark is-medium">
+                                Download Resume
+                            </a>
+                        </p>
+                    </div>
+
+                </div>    
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="section hero" id="projects">
+        <div class="hero-body"> 
+            <div class="container">
+            <h2 class="title  has-text-centered">MY <span class="colored">PROJECTS</span></h2>
+            <article class="message">
+                <div class="message-body has-text-centered">
+                    Coming soon.
+                </div>
+            <!---
+            <div class="columns">
+                <div class="column">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                    <p class="title is-4">DViz Index</p>
+                                    <p class="subtitle is-6"><span class="tag is-dark">Data View</span> &nbsp;<span class="tag is-light">Data Science</span></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                    <p class="title is-4">Data Surfers</p>
+                                    <p class="subtitle is-6"><span class="tag is-dark">Data View</span> &nbsp;<span class="tag is-light">Data Science</span></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                    <p class="title is-4">Personal Blog</p>
+                                    <p class="subtitle is-6"><span class="tag is-dark">Data View</span> &nbsp;<span class="tag is-light">Data Science</span></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section class="section hero is-light" id="resume">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title has-text-centered is-spaced">MY <span class="colored">RESUME</span></h2>
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <h3 class="subtitle is-size-4 is-spaced">Professional</h3>
+							<hr>
+							<div class="item">	
+								<div class="media">
+									<div class="media-left">
+										<figure class="">
+                                            <i class="fa fa-truck fa-3x"></i>
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">DPDHL Group</p>
+										<p class="subtitle is-6">September 2018 - Actual</p>
+									</div>
+
+								</div>
+								<p class="description">Procurement Performance and Tools Team</a></p>
+								<hr>
+							</div>
+
+							<div class="item">	
+								<div class="media">
+									<div class="media-left">
+										<figure class="">
+                                            <i class="fa fa-car fa-3x"></i>
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">BMW do Brasil</p>
+										<p class="subtitle is-6">August 2017 - July 2018</p>
+									</div>
+
+								</div>
+								<p class="description">Quality Team in the Painted & Body Department.</p>
+								<hr>
+							</div>
+							
+							<div class="item">	
+								<div class="media">
+									<div class="media-left">
+										<figure class="">
+                                            <i class="fa fa-snowflake fa-3x"></i>
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Embraco</p>
+										<p class="subtitle is-6">August 2015 - Jan 2017</p>
+									</div>
+
+								</div>
+								<p class="description">Sales Performance in Bussines & Marketing Department and Corporate World Class Manufacturing Departments.</a></p>
+								<hr>
+							</div>
+							
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <h3 class="subtitle is-size-4 is-spaced">Educacional / Volunteer work</h3>
+							<hr>
+							<div class="item">	
+								<div class="media">
+									<div class="media-left">
+										<figure class="image is-48x48">
+										  <img src="./img/tedxlogo.png" alt="TEDxBomRetiro">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">TEDxBomRetiro</p>
+										<p class="subtitle is-6">November 2017 - August 2018</p>
+									</div>
+
+								</div>
+								<p class="description">Serving as Marketing Associate for the Event organization.</p>
+								<hr>
+							</div>
+							
+							<div class="item">	
+								<div class="media">
+									<div class="media-left">
+										<figure class="image is-48x48">
+										  <img src="./img/smart.png" alt="Smart Consultoria Jr.">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Junior Enterprise: Smart Consultoria Jr.</p>
+										<p class="subtitle is-6">August 2013 - July 2015</p>
+									</div>
+
+								</div>
+								<p class="description">Serving as Marketing Trainee, Vice President and President for the organization.</p>
+								<hr>
+							</div>
+							
+							
+							<div class="item">	
+								<div class="media">
+									<div class="media-left">
+										<figure class="image is-48x48">
+                                            <img src="./img/udesc.jpg" alt="Santa Catarina State University">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">Industrial and System Engineer</p>
+										<p class="subtitle is-6">August 2013 - Actual</p>
+									</div>
+
+								</div>
+								<p class="description">Bachelor degree at <a href="https://www.udesc.br/international" class="" target="_blank">Santa Catarina State University.</a></p>
+								<hr>
+							</div>
+							
+						</div>
+                    </div>
+               </div>
+
+                <p class="is-size-4 has-text-centered cta">If you want to know more about my previous experiences you can check my resume clicing on the button bellow:</p>
+                <p class="has-text-centered">
+                    <a href="#contact" class="button is-info is-medium">Talk to Me</a>
+                    <a href="http://thiagolange.me/thiagolange.pdf" target=""_blank" class="button is-dark is-medium">Download Resume</i></a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container has-text-centered">
+
+            <h2 class="title">TALK <span class="colored">TO ME</span></h2>
+            
+            <form method="POST" action="https://formspree.io/thiagoplange@gmail.com">
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input is-radiusless" type="text" name="name" placeholder="Name">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input is-radiusless" type="email" name="email" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea is-radiusless" name="message" placeholder="Message me"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<input type="hidden" name="_next" value="./thanks.html">
+				<input type="hidden" name="Message from: thiagolange.me" />
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-info is-medium is-radiusless is-pulled-right" type="submit">
+                                    Send
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container has-text-centered">
+            <div class="social-links">
+                    <a href="https://www.facebook.com/thiago.lange" target="_blank">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/langethiago/" target="_blank">
+                            <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/thiago-lange-286570a2/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-2x"></i>
+                    </a>
+                </div>
+            <small>
+                © Copyright 2019 by <a href="http://thiagolange.me">Thiago P. Lange</a>. All Rights Reserved.
+            </small>
+        </div>
+    </footer>
+
+		<script async  type="text/javascript">
+	// The following code is based off a toggle menu by @Bradcomp
+	// source: https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
+	(function() {
+		var burger = document.querySelector('.burger');
+		var menu = document.querySelector('#'+burger.dataset.target);
+		burger.addEventListener('click', function() {
+			burger.classList.toggle('is-active');
+			menu.classList.toggle('is-active');
+		});
+	})();
+	</script>
 </body>
 </html>

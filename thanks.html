@@ -19,7 +19,7 @@
                     <h1 class="brand is-size-4"><strong>Thiago <span class="lange">Lange</span></strong></h1>
                 </a> 
     
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -73,7 +73,18 @@
             </div>
         </div>
     </section>
-
+	<script async  type="text/javascript">
+	// The following code is based off a toggle menu by @Bradcomp
+	// source: https://gist.github.com/Bradcomp/a9ef2ef322a8e8017443b626208999c1
+	(function() {
+		var burger = document.querySelector('.burger');
+		var menu = document.querySelector('#'+burger.dataset.target);
+		burger.addEventListener('click', function() {
+			burger.classList.toggle('is-active');
+			menu.classList.toggle('is-active');
+		});
+	})();
+	</script>
     
 
 </body>
