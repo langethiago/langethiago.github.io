@@ -1,0 +1,43 @@
+#header .image img{
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+#header .image{margin:auto;}
+#header{padding-bottom: 2em;}
+
+#search{margin-top:-6em; margin-bottom:-3em;}
+
+#main .card{
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: initial;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+
+}
+#main .card:hover{
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+#main .card-content{padding:1em;}
+#main .card .title{margin-bottom:0.5em;}
+footer .social-links{
+    margin-bottom:1em;
+    color:#4a4a4a;
+}
+p.me, #resume p.cta{
+    margin:1em 0;
+    line-height: 1.5em;
+}
+footer a{
+    color:#4a4a4a;
+    font-weight: bold;
+}
+
+footer .social-links a{
+    margin:0 1em 0 1em;
+}
