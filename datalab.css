@@ -1,0 +1,104 @@
+nav{
+	border-top:0.05em solid #3273d9;
+	border-bottom:0.01em solid #ebebeb;
+}
+
+.navbar-brand .title{
+	margin:0;
+	font-weight:bolder !important;
+}
+.navbar-brand .subtitle{
+	margin-top:-0.3em !important;
+	font-size:1.05rem !important;
+}
+
+.navbar-brand img{
+	max-height:2.5em;
+	margin-top:0.5em;
+}
+
+#header{
+	border-bottom: 0.05em solid #ebebeb;
+}
+
+#analysis h2.title{
+    margin-bottom:1em !important;
+}
+#analysis h2.title:after{
+    display:block;
+    width: 100px;
+    height: 3px;
+    background: #3273d9;
+    content: "";
+    margin: 0.5em  auto;
+}
+span.colored{
+    color:#3273D9 !important;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 172ms;
+    will-change: transform, box-shadow
+}
+
+.card:hover,
+.card.is-hovered,
+.card:focus,
+.card.is-focused,
+.card:active,
+.card.is-active,
+.card .is-touched {
+    box-shadow: 0 10px 20px rgba(220, 220, 220, 0.5);
+    transform: translateY(-4px);
+}
+
+.card:hover .card-image,
+.card.is-hovered .card-image,
+.card:focus .card-image,
+.card.is-focused .card-image,
+.card:active .card-image,
+.card.is-active .card-image,
+.card .is-touched .card-image {
+    transform: scale(1.05)
+}
+
+.card .card-content {
+	text-align:left;
+}
+.card .card-footer{
+	margin-top:auto;
+	border:0;
+	padding:1em;
+}
+
+.card .card-image {
+    border-radius: 10px 10px 0 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 172ms;
+    will-change: transform
+}
+
+.card .card-content .subtitle{
+	color:#666;
+}
+.card .card-body {
+    padding: 1rem 0.5rem
+}
+
+.card .card-title {
+    color: #463853;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 1.2
+}		
