@@ -1,6 +1,8 @@
 nav{
 	border-top:0.05em solid #3273d9;
-	border-bottom:0.01em solid #ebebeb;
+    border-bottom:0.02em solid #ebebeb;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+
 }
 
 .navbar-brand .title{
@@ -9,7 +11,8 @@ nav{
 }
 .navbar-brand .subtitle{
 	margin-top:-0.3em !important;
-	font-size:1.05rem !important;
+    font-size:1rem !important;
+    font-weight: lighter;
 }
 
 .navbar-brand img{
@@ -19,6 +22,24 @@ nav{
 
 #header{
 	border-bottom: 0.05em solid #ebebeb;
+}
+
+#header .box{
+    padding:0.5em;
+}
+#header img{
+    margin:auto;
+}
+
+@media only screen and (max-width: 768px) { /* <== You can change this break point as per your  needs */
+    #header .columns {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+    #header img{
+        width: 60%;
+        height: 60%;
+    }
 }
 
 #analysis h2.title{
@@ -89,16 +110,31 @@ span.colored{
     will-change: transform
 }
 
+.card .card-content .title{
+    font-size:1.5rem;
+}
 .card .card-content .subtitle{
-	color:#666;
+    color:#666;
+    font-size:1.25rem;
 }
 .card .card-body {
     padding: 1rem 0.5rem
 }
+	
 
-.card .card-title {
-    color: #463853;
-    font-size: 1.375rem;
-    font-weight: 500;
-    line-height: 1.2
-}		
+footer .social-links{
+    margin-bottom:1em;
+    color:#4a4a4a;
+}
+p.me, #resume p.cta{
+    margin:1em 0;
+    line-height: 1.5em;
+}
+footer a{
+    color:#4a4a4a;
+    font-weight: bold;
+}
+
+footer .social-links a{
+    margin:0 1em 0 1em;
+}
