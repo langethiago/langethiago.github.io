@@ -1,0 +1,89 @@
+a.navbar-item:hover{
+    color:#774ca2 !important;
+    background-color:#ffbd59 !important;
+}
+
+nav{
+    -webkit-box-shadow: 0 05px 10px rgba(119, 76, 162, .2);
+    box-shadow: 0 05px 10px rrgba(119, 76, 162, .2;)
+}
+.navbar-item img{
+    max-height: inherit !important;
+}
+.navbar-item figure {max-width: 100px !important;}
+
+.is-header{
+    background-image:  linear-gradient(
+        rgba(119, 76, 162, 0.45), 
+        rgba(94, 15, 173, 0.55)
+      ), url('https://images.unsplash.com/photo-1526371233670-42d618efcec5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80');
+    background-size: cover; /* Center the image */
+    background-position-y: -10em;
+}
+.is-header h1, .is-header h2{    color:#fff !important;}
+.button.is-purple{
+    background-color: #774ca2 !important;
+    color: #ffbd59 !important;
+    font-weight: bolder;
+    border:0 !important;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+.button.is-purple:hover, .button.is-purple:focus{
+    background-color: #442563 !important;
+    border:1px solid #fff !important;
+}
+.is-purple.is-outlined{
+    background: #fff !important;
+    border:1px solid #774ca2 !important;
+}
+hr{
+    background: #efefef;
+    margin:0.5em 0 !important;
+    height: 1px;
+}
+
+.keepit .image img{max-width: 150px;}
+
+h3{color:#774ca2!important; font-weight: bolder; text-transform: uppercase;}
+section.tryit{
+    background: #ffbd59 !important;
+}
+
+
+.footer{padding:1em;}
+.footer .image{margin-bottom: 1.5em !important;}
+
+.footer .image img{
+    max-width: 200px !important;
+    margin:auto;
+}
+
+.tryit .control{margin:1.5em 0em !important;}
+.recipes .card{border-radius:15px;}
+.recipes .card img{border-top-left-radius: 15px; border-top-right-radius: 15px;}
+.recipes .card-content{padding:1em;}
+
+.recipes .categories{
+    margin:1.5em;
+}
+
+.recipes .category{
+    color: #ffbd59 !important;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.recipes .recipe-info{
+    color:#666;
+    font-size:12px !important;
+}
+
+.recipes .card h3{
+    text-indent:5px;
+}
